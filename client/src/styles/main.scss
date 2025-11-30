@@ -1,0 +1,40 @@
+@import "header";
+@import "homePage";
+@import "projectCard";
+@import "projectsPage";
+@import "highLightProjectCard";
+@import "studentCard";
+@import "highLightStudentCard";
+@import "footer";
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html,
+body,
+#root {
+  background-color: #481c54;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Lexend", sans-serif;
+  font-style: bold;
+  color: white;
+}
+
+main {
+  margin-top: 80px;
+}

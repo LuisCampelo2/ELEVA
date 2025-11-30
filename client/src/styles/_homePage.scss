@@ -1,0 +1,75 @@
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 950px;
+  gap: 213px;
+  margin-left: 81px;
+}
+
+.highlight-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 39px;
+  left: 81px;
+  height: 182px;
+  gap: 20px;
+}
+
+
+.link-highlight-projects {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-highlight-projects::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -25%;
+  width: 20%;
+  height: 3px;
+  background-color: #fff;
+}
+
+.carousel {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  background-color: #F8DC01;
+  padding: 20px;
+  height: 876px;
+  margin: 30px 30px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.slide-item {
+  width: 70%;
+}
+
+.container-students-home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  background-color: #E62189;
+  color: black;
+  margin: 30px 30px;
+  height: 900px;
+  gap: 160px;
+}
+
+.students {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 90px;
+  padding: 20px;
+}

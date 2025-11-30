@@ -1,0 +1,18 @@
+.card-container-student {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-student {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.name-student {
+  font-size: 17px;
+}

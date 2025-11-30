@@ -1,0 +1,29 @@
+.student-container {
+    display: flex;
+    background: none;
+    height: 289px;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    gap: 80px;
+}
+
+.student-container::after {
+    content: "";
+    position: absolute;
+    left:-10px;
+    bottom: -70px;
+    width: 90%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.student-container:last-child::after {
+    content: none;
+}
+
+.info-student{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
